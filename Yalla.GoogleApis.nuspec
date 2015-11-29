@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Yalla.GoogleApis</id>
+    <version>0.2.0-pre</version>
+    <title>YALLA.NET Google APIs Client logger</title>
+    <authors>Dmitry Shechtman</authors>
+    <owners>Dmitry Shechtman</owners>
+    <summary>YALLA.NET Google APIs Client logger</summary>
+    <description>
+      YALLA.NET is Yet Another Logging Library Abstraction for .NET.
+
+      Supported Platforms:
+
+      * .NET Framework 4
+      * Silverlight 5
+      * Windows 8
+      * Windows Phone 8.1
+      * Windows Phone Silverlight 8
+      * Xamarin.Android
+      * Xamarin.iOS
+      * Xamarin.OSX
+      * Portable Class Libraries
+    </description>
+    <releaseNotes>Initial release</releaseNotes>
+    <language>en-US</language>
+    <projectUrl>http://yalladotnet.github.io/Yalla</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © Dmitry Shechtman 2014-2015</copyright>
+    <tags>portable pcl log logger logging library abstraction YALLA YALLA.NET YallaDotNet Yalla</tags>
+    <dependencies>
+      <dependency id="Google.Apis.Core" version="1.9.2" />
+      <dependency id="Yalla" version="0.2.0-pre" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.xml" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="README.txt" />
+    <file src="LICENSE" />
+    <file src="NOTICE" />
+  </files>
+</package>
