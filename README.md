@@ -1,11 +1,19 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/3hd7fcy0r31t4ivc)](https://ci.appveyor.com/project/dmitry-shechtman/yalla-googleapis)
+
 YALLA.NET Google APIs Client logger
 ===================================
+
+
+Getting Started
+---------------
+
+The latest documentation is available at <http://yalladotnet.github.io/Yalla>.
 
 
 Notice
 ------
 
-   Copyright © Dmitry Shechtman 2015
+   Copyright Â© Dmitry Shechtman 2015
 
    Licensed under the Apache License, Version 2.0 (the "License").
 
