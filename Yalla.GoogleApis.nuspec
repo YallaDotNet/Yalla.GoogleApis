@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Yalla.GoogleApis</id>
-    <version>0.2.0-pre</version>
+    <version>0.3.0-pre</version>
     <title>YALLA.NET Google APIs Client logger</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
@@ -22,7 +22,7 @@
       * Xamarin.OSX
       * Portable Class Libraries
     </description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Updated to YALLA.NET 0.3.0</releaseNotes>
     <language>en-US</language>
     <projectUrl>http://yalladotnet.github.io/Yalla</projectUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -31,7 +31,7 @@
     <tags>portable pcl log logger logging library abstraction YALLA YALLA.NET YallaDotNet Yalla</tags>
     <dependencies>
       <dependency id="Google.Apis.Core" version="1.9.2" />
-      <dependency id="Yalla" version="0.2.0-pre" />
+      <dependency id="Yalla" version="0.3.0-pre" />
     </dependencies>
   </metadata>
   <files>

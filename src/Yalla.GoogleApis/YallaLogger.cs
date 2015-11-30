@@ -94,7 +94,7 @@ namespace Yalla.GoogleApis
         /// <param name="args"><see cref="String.Format(String,Object[])"/> arguments (if applicable).</param>
         public void Error(Exception exception, string message, params object[] args)
         {
-            _log.ErrorFormat(message, exception, args);
+            _log.ErrorFormat(exception, message, args);
         }
 
         private static YallaLogger CreateLogger(Type type)
