@@ -5,7 +5,7 @@ namespace Yalla.GoogleApis
     /// <summary>
     /// A logger implementation which makes use of the YALLA.NET library.
     /// </summary>
-    public class YallaLogger : Google.Apis.Logging.ILogger
+    public class YallaLogger : Singleton<YallaLogger>, Google.Apis.Logging.ILogger
     {
         private static readonly ILoggerCache<Type, YallaLogger> _cache =
             new LoggerCache<Type, YallaLogger>();
@@ -13,6 +13,7 @@ namespace Yalla.GoogleApis
         private readonly ILog _log;
 
         private YallaLogger(ILog log)
+            : base(null)
         {
             this._log = log;
         }
