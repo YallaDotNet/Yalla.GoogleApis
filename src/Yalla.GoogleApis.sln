@@ -14,6 +14,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Yalla.GoogleApis.nuspec = ..\Yalla.GoogleApis.nuspec
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC9C7823-9423-45F7-BAE7-01A9DA38CB3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{BC29661E-38FD-451F-8BB0-41DF9FA3FFF4}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\Yalla.snk = Properties\Yalla.snk
+		Properties\YallaAssemblyInfo.cs = Properties\YallaAssemblyInfo.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +35,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC9C7823-9423-45F7-BAE7-01A9DA38CB3C} = {9576107F-139D-4024-8C00-3DF475917CBF}
+		{BC29661E-38FD-451F-8BB0-41DF9FA3FFF4} = {AC9C7823-9423-45F7-BAE7-01A9DA38CB3C}
 	EndGlobalSection
 EndGlobal
