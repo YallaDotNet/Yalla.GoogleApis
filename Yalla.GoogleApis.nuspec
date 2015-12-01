@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Yalla.GoogleApis</id>
-    <version>0.3.0-pre</version>
+    <version>0.3.1-pre</version>
     <title>YALLA.NET Google APIs Client logger</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
@@ -22,7 +22,7 @@
       * Xamarin.OSX
       * Portable Class Libraries
     </description>
-    <releaseNotes>Updated to YALLA.NET 0.3.0</releaseNotes>
+    <releaseNotes>Fixed payload</releaseNotes>
     <language>en-US</language>
     <projectUrl>http://yalladotnet.github.io/Yalla</projectUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -35,8 +35,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
-    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.xml" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.GoogleApis.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="src\Yalla.GoogleApis\bin\Release\Yalla.GoogleApis.xml" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
     <file src="README.txt" />
     <file src="LICENSE" />
     <file src="NOTICE" />
