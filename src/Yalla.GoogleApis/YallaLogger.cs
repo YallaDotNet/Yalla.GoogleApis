@@ -12,6 +12,11 @@ namespace Yalla.GoogleApis
 
         private readonly ILog _log;
 
+        private YallaLogger()
+            : base(null)
+        {
+        }
+
         private YallaLogger(ILog log)
             : base(null)
         {
